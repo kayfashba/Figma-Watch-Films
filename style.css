@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    background-color: black;
+    height: 70px;
+}
+input{
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+}
+input::placeholder{
+    color: black;
+}
+.movie-btn{
+    margin-left: -60px;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    background-image: url(./Rectangle\ 2.png);
+    background-repeat: no-repeat;
+}
+.Watch-now-btn{
+    height: 60px;
+    display: flex;
+    justify-content: center;align-items: center;
+    gap: 10px;
+    padding: 30px;
+    background-color: red;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 330px;
+    transition: 1.1s;
+}
+.Watch-now-btn:hover{
+    transition: 1.1s;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid red;
+}
+.Watch-later-btn{
+    height: 60px;
+    display: flex;
+    justify-content: center;align-items: center;
+    gap: 10px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 330px;
+    transition: 1.1s;
+}
+.Watch-later-btn:hover{
+    transition: 1.1s;
+    background-color: red;
+}
+.movie-main-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.info{
+    padding: 50px;
+    margin-left: 100px;
+}
+h1{
+    color: white;
+    font-size: 35px;
+}
+.info-btn{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.btn-action{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-adventure{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.title-p{
+    font-size: 22px;
+    font-weight: bold
+}
+.btn-ScienceFiction{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.info-text{
+    color: #fff;
+    margin-top: 30px;
+}
+.main-boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: -130px;
+}
+.box-1{
+    width: 80px;
+    height: 15px;
+    background-color: red;
+    border-radius: 10px;
+}
+.box-2{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+.box-3{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+.box-4{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+.box-5{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
+.section{
+    color: #fff;
+}
+h2{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-top: 30px;
+}
+.card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card-btn{
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+h3{
+    font-size: 30px;
+}
+.section-2{
+    color: #fff;
+}
+.section-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.trending-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 160px;
+    line-height: 70px;
+    color: white;
+}
+.section-card-p{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+.section-card-btn{
+    margin-left: 160px;
+}
+.section-card-btn2{
+    margin-left: 115px;
+}
+.section-card-btn3{
+    margin-left: 105px;
+}
+.View-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+    font-size: 22px;
+    margin-right: -40px;
+}
+.View-all1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-right: 120px;
+}
+.section-action-btn{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+.section-comedy-btn{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+.section-crime-btn{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+.section-thriller-btn{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+.section-horror-btn{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+.h2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.card-main-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1{
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+}
+.btn-2{
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #ff0000;
+    background-color: #ffffff00;
+    color: white;
+}
+.btn-3{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #ff0000;
+    background-color: #ffffff00;
+    color: white;
+}
+.h2h{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 160px;
+    margin-bottom: 10px;
+    color: white;
+}
+.h2-a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: white;
+}
+.aa{
+    color: #adacacf6;
+    text-decoration: none;
+    font-size: 14px;
+}
+.a{
+    color: #adacacf6;
+    text-decoration: none;
+    margin-bottom: -15px;
+    font-size: 14px;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.card{
+    width: 250px;
+    border-radius: 8px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+.tag-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 14px;
+}
+.pp{
+    color: white;
+}
+.label{
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.label.hd{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.label.duration,
+.label.season{
+    border: 1px solid red;
+    color: white;
+}  
+.icon{
+    font-size: 12px;
+}
